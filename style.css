@@ -1,0 +1,586 @@
+
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.head-logo img{
+    width: 250px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.header-container{
+    background-color: #032e53;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    gap: 280px;
+}
+
+.header-ul{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.header-ul li{
+    list-style: none;
+}
+.header-ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+.header-ul a:hover{
+    color: #8c3232;
+}
+
+.search-img{
+    width: 18px;
+    margin-left: 40px;
+}
+
+.log-butt {
+    border-color: #8c3232;
+    border-radius: 9999px;
+    border-width: 1px;
+    background: none;
+    width: 100px;
+    height: 30px;
+}
+.log-butt{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header-ul-butt{
+    display: flex;
+    align-items: center;
+}
+
+.sign-up{
+    margin-left: 30px;
+    border-radius: 9999px; 
+    border: 1px solid #8c3232;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.header-ul a{
+    text-decoration: none;
+}
+
+.sign-up p{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sign-up:hover{
+    background-color: #8c3232
+}
+.centre-container{
+    background-image: url(/img/tbilisochemo.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    width: 1889px;
+    display: flex;
+}
+h1{
+    margin-left: 400px;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 300px;
+    letter-spacing: 2px;
+}
+
+.centre-container a{
+    margin-left: 30px;
+    border-radius: 9999px; 
+    border: 1px solid #8c3232;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border-color: rgb(163 145 97 / var(--tw-border-opacity, 1));
+    background-color: rgb(163 145 97 / var(--tw-border-opacity, 1));
+    text-decoration: none;
+    height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 395px;
+}
+.centre-container a:hover{
+    background-color: rgb(116, 100, 22);
+}
+
+.main-texts p{
+    color: #fff;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 280px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 45px;
+    text-transform: uppercase;
+    border-bottom: 4px solid rgb(116, 100, 22);
+    margin-left: 700px;
+    width: 500px;
+}
+
+.marshut img{
+    width: 350px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: 1px rgb(96, 104, 28) solid;
+}
+
+.marshut{
+    display: flex;
+
+}
+
+.marshut-text{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.marshut-text p{
+    width: 600px;
+}
+
+.marshut-s img{
+    width: 350px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border: 1px rgb(96, 104, 28) solid;
+}
+
+.marshut-s{
+    display: flex;
+}
+
+/* REGIONSS */
+
+.geo-map{
+    margin-left: 350px;
+}
+
+.map-img{
+    position: absolute;
+}
+
+.regions{
+    position: relative;
+}
+.region-row li{
+    position: absolute;
+    color: red;
+}
+.mestia{
+    position: absolute;
+    left: 15rem;
+    top: 8rem;
+}
+
+.regions a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: red;
+}
+
+.region-row a:hover{
+    color: rgb(228, 241, 130);
+}
+.region-row li:hover{
+    color: rgb(228, 241, 130);
+}
+
+.kutaisi{
+    left: 280px;
+    margin-top: 220px;
+}
+
+.batumi{
+    left: 200px;
+    top: 280px;
+}
+.borjomi{
+    left: 330px;
+    top: 280px;
+}
+
+.tbilisi{
+    left: 455px;
+    top: 270px;
+}
+
+.tusheti{
+    left: 455px;
+    top: 185px;
+}
+
+.kakheti{
+    left: 570px;
+    top: 310px;
+}
+
+.r-t{
+    display: flex;
+    flex-direction: column;
+}
+
+.l-t{
+    display: flex;
+    flex-direction: column;
+}
+
+.l-t-t{
+    display: flex;
+    gap: 50px;
+    position: relative;
+    left: 760px;
+    top: 140px;
+}
+
+.r-t a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.r-t{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.l-t a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.l-t{
+    display: flex;
+    gap: 10px;
+    
+}
+
+/* Contact US */
+
+.contact-us{
+    margin-top: 450px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+
+
+.wrapper{
+    position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  margin-top: 300px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+
+.wrapper h3{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+
+/* test */
+
+
+.menu-btn {
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+  }
+  
+  .btn-line {
+    display: inline;
+    width: 25px;
+    height: 3px;
+    background-color: #8c3232;
+    margin: 3px 0;
+    color: #ffff;
+  }
+  
+  .menu {
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #0E1015;
+    transition: left 0.3s ease; 
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+  }
+  
+  .menu ul li {
+    padding: 15px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .menu li a:hover{
+    color: red;
+  }
+
+  
+  .menu.active {
+    left: 0; 
+  }
+
+  .menu img{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  
+
+
+
+@media only screen and (max-width: 1670px) {
+  .header-container {
+    gap: 100px;
+  }
+  .header-ul a{
+    font-size: 10px;
+  } 
+  body {
+    max-width: 1670px;
+  }
+}
+
+@media only screen and (max-width:1450px) {
+    .main-texts p{
+        margin-left: 180px;
+    }
+    .marshut img{
+        margin-left: 200px;
+    }
+    .marshut-s img{
+        margin-left: 200px;
+    }
+    h2{
+        margin-left: 400px;
+    }
+    .marshut-text p{
+        font-size: 18px;
+        width: 400px;
+    }
+    .header-container{
+        gap: 50px;
+    }
+    .head-logo img{
+        margin-left: 100px;
+    }
+    .centre-container a {
+        margin-left:170px;
+    }
+    h1{
+        margin-left: 170px;
+    }
+    body{
+        width: 1450px;
+    }
+}
+
+
+@media only screen and (max-width:1300px) {
+    .l-t-t a{
+        display: none;
+    }
+    .head-logo img{
+        margin-left: 10px;
+    }
+    .header-ul{
+        gap: 20px;
+    }
+    .main-texts p {
+        font-size: 15px;
+        margin-top: 250px;
+        margin-left: 100px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    .marshut, .marshut-s{
+        flex-direction: column;
+        margin-left: 120px;
+    }
+    .marshut-text p{
+        font-size: 14px;
+        margin-left: 150px;
+    }
+    h2{
+        margin-left: 220px;
+    }
+    .geo-map{
+        margin-left: 100px;
+    }
+    .wrapper{
+        left: 30%;
+    }
+     .centre-container a {
+        margin-left:50px;
+    }
+    h1{
+        margin-left: 50px;
+    }
+}
+
+
+@media only screen and (max-width:888px) {
+    .header-container{
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+   .centre-container{
+    flex-direction: column;
+   }
+   .centre-container p{
+    margin-top: 10px;
+    margin-left: 50px;
+   }
+   .header-ul{
+    display: none;
+   }
+   .head-logo img{
+    margin-left: 200px;
+   }
+   .menu-btn {
+    display: flex;
+  }
+
+  .header_main {
+    display: none;
+  }
+  .marshut, .marshut-s{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .marshut-text p{
+        font-size: 14px;
+        margin-left: 150px;
+    }
+    h2{
+        margin-left: 100px;
+    }
+    .geo-map{
+        margin-left: 0px;
+    }
+    .wrapper{
+        left: 24%;
+    }
+     .centre-container a {
+        margin-left:50px;
+    }
+}
+
